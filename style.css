@@ -1,0 +1,163 @@
+
+body{
+    margin: 0;
+    border: 0;    /*default*/
+}
+.container{
+    width: 100%;          /*container*/
+}
+
+main{
+    width: 100%;
+    background: tan;  /*main*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: auto;
+}
+.logo-name{
+    font-size: 3rem;  /*logo-name*/
+    color: white;
+    font-weight: 560;
+    font-family:serif;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2.3px 1.3px rgb(216, 216, 216);
+    gap: 1fr;
+}
+.logo-image{
+    padding-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 50px;     /*logo-image*/
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;       /*header*/
+    position: relative;
+}
+.content{
+    font-size: 1.7rem;
+    color: darkcyan;
+    margin: 10px;
+    font-variant: small-caps;
+}       /*content*/
+
+.start{
+    font-size: 2.2rem;
+    color: rgb(141, 140, 140);
+    text-shadow: 2.3px 1.3px rgb(216, 216, 216);
+}
+
+section{
+    display: flex;
+    width: 100%;
+}                        /*section*/
+.content-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}
+.img-1{
+    width: 100%;
+    height: 30vh;
+    background-image: url(kristaps-ungurs-BAvDjy8cmAM-unsplash.jpg);
+    box-shadow: lightslategrey 0px 1.25px 1.5px;
+    transition: all 500ms ease-out;
+}                            /*image-1*/
+.img-2{
+    width: 100%;
+    height: 30vh;
+    background-image: url(derek-lee-sqpS3MdKILc-unsplash.jpg);
+    box-shadow: lightslategrey 0px 1.25px 1.5px;
+    transition: all 500ms ease-out;
+}                             /*image-2*/
+ 
+aside{
+    
+    height: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}                             /*aside*/
+.card{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: #778899 0px 1.25px 1.5px;
+    background-color: rgb(245, 246, 247);
+    margin-top: 10px;
+    transition: all 500ms ease-out;
+}                           /*cards*/
+.card:hover{
+    box-shadow: #778899 0px 1.25px 1.5px , #778899 0px 1.55px 2.1px;
+    transform: translateY(-2px) scale(1.1);
+}
+.card-1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-image: url(erica-steeves-5D4s0Asiv_Y-unsplash.jpg);
+    width: 100%;
+    height: 20vh;
+}    /*card-img*/
+.card-2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    width: 100%;
+    height: 20vh;
+    background-image: url(aranprime-OBLM8dZlJxc-unsplash.jpg);
+}     /*card-img*/
+.c-1{
+    color: rgb(149, 187, 236);
+}
+.c-2{                                         /*card 1 & 2*/
+    color: rgb(224, 148, 97);
+}
+
+footer{
+    height: auto;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    background: rgb(79, 95, 51);
+    margin-top: 2px;
+    color: white;
+}                       /*footer*/
+.foot-content{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.far{
+    padding-top: 1.5rem;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+}
+.fas{
+    padding-top: 1.5rem;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+}
+
+
+
+

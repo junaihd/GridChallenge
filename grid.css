@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto 2fr 1fr;
+    grid-template-areas: "title title sidebar"
+                         "content content sidebar"
+                         "section footer footer";
+}
+
+main{
+    grid-area: title;
+}
+aside{
+    grid-area: sidebar;
+}
+header{
+    grid-area: content;
+}
+footer{
+    grid-area: footer;
+}
+section{
+    grid-area: section;
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 25vh;
+    }
+}
+
+
